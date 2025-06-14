@@ -1,42 +1,71 @@
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <title>My test page</title>
-  </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Coding 101 Downloads</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f6fc;
+      margin: 0;
+      padding: 0;
+    }
 
-  <body>
-    <header>
-        <h1>Bruno's Website  </h1>
-    </header>
+    header {
+      background-color: #334f7c;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
 
-    <nav>
-        We go places
-    </nav>
-    
-    <ul>
-        <li> <a href="https://homebrewery.naturalcrit.com"> Homebrewery</a></li>
-        <li> <a href="https://5e.tools/lootgen.html"> 5e Tools</a></li>
+    .container {
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 8px;
+    }
 
-    </ul>
-   
+    h2 {
+      color: #334f7c;
+    }
 
+    .file-link {
+      display: block;
+      padding: 10px;
+      margin: 10px 0;
+      background-color: #eaf0ff;
+      border-left: 5px solid #334f7c;
+      text-decoration: none;
+      color: #000;
+      border-radius: 4px;
+    }
 
-  
-    <img
-        src="https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-        alt="kitty-cat-kitten-pet-45201" 
-    />
-    <p>Developing websites is easier then I would have thought. <strong>- Bruno </strong>
+    .file-link:hover {
+      background-color: #d3e1ff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Coding 101 – Student & Teacher Resources</h1>
+    <p>Download files for your Scratch coding class</p>
+  </header>
 
-    <a href = "https://www.google.com/search?client=opera-gx&q=cat+photos&sourceid=opera&ie=UTF-8&oe=UTF-8"> Cat Photos</a>
-    
-    
-    </p>
+  <div class="container">
+    <h2>📚 Daily Worksheets</h2>
+    <a href="files/day1_worksheet.pdf" class="file-link" download>📝 Day 1: Name Animation Worksheet</a>
+    <a href="files/day2_game_basics.pdf" class="file-link" download>🎮 Day 2: Game Building Worksheet</a>
+    <a href="files/day3_variables.pdf" class="file-link" download>🧠 Day 3: Using Variables Worksheet</a>
+    <a href="files/day4_video_ml.pdf" class="file-link" download>🎥 Day 4: Webcam + ML Worksheet</a>
+    <a href="files/day5_project_planner.pdf" class="file-link" download>🌟 Day 5: Final Project Planner</a>
 
-    <footer>
-        <p>A place where Feet Go</p>
-    </footer>
-    
-  </body>
+    <h2>🧑‍🏫 Teacher Guides</h2>
+    <a href="files/teacher_lessons.pdf" class="file-link" download>📖 Full Teacher Lesson Plan (All Days)</a>
+
+    <h2>🎓 Extras</h2>
+    <a href="files/certificate.pdf" class="file-link" download>🎓 Printable Completion Certificate</a>
+  </div>
+</body>
 </html>
